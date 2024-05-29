@@ -1,0 +1,83 @@
+/* styles pour le jeu Pierre-Papier-Ciseaux */
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    display: flex;
+    gap: 10px;
+}
+
+/* Boutons */
+button {
+    display: block;
+    width: 256px;
+    height: 256px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Boutons */
+#reset {
+    display: none;
+    width: 100%;
+    height: 50px;
+    background-color: #8a0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #aaaaaa;
+}
+
+#reset:hover {
+    background-color: #580000;
+}
+
+#rock {
+    background-image: url('../img/Rock-paper-scissors_\(rock\).png');
+}
+
+#paper {
+    background-image: url('../img/Rock-paper-scissors_\(paper\).png');
+}
+
+#scissors {
+    background-image: url('../img/Rock-paper-scissors_\(scissors\).png');
+}
+
+/* Résultat */
+#result {
+    font-size: 18px;
+    color: #333;
+}
+
+#imgResult {
+    width: 40px;
+}
